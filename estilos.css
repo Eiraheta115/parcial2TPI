@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .sidebar {
@@ -42,7 +42,7 @@ body{
     color: white;
     text-decoration: none;
     padding: 10px;
-    
+
 }
 
 .contenido {
@@ -52,7 +52,6 @@ body{
     padding: 30px;
     transform: translateX(250px);
 }
-
 
 .contenido p {
     position: absolute;
@@ -71,16 +70,15 @@ body{
     font-weight: 300;
     padding-top: 15%;
     margin-bottom: 10px;
-    
+
 }
 
 
 #video-bg-elem {
-position: absolute;
-top: 0;
-left: 0;
-min-height: 100%;
-min-width: 100%;
-z-index: 0;
-    
-}
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-height: 100%;
+				min-width: 100%;
+                z-index: 0;
+			}
